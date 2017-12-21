@@ -1,0 +1,10 @@
+<view class="container">
+  <view class='bColor'>
+  <image src='../../images/bc.png'></image>
+  </view>
+    <image class="avatar" src="{{avatarUrl}}" />
+    <text class="motto">{{nickName}}</text>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey">开启魔幻之旅</text>
+    </view>
+</view>
